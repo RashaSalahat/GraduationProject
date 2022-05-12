@@ -1,0 +1,55 @@
+name: hotel_booking
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  country_list_pick: ^1.0.1+5
+  country_picker: ^2.0.15
+  curved_navigation_bar: ^1.0.3
+  simple_gradient_text: 1.2.3
+  line_awesome_icons: ^1.0.4+2
+  flutter_rating_bar: ^3.0.1+1
+  carousel_pro: ^1.0.0
+  flutter:
+    sdk: flutter
+  dio:
+  google_fonts: ^2.1.0
+  jiffy: ^4.1.0
+  logger: ^1.1.0
+  stream_chat_flutter_core: ^3.2.0
+
+  cupertino_icons: ^1.0.2
+  country_code_picker:
+  animated_theme_switcher: ^2.0.1-nullsafety.0
+  http: ^0.13.4
+  font_awesome_flutter: ^8.5.0
+  faker: ^2.0.0
+  flutter_svg: ^0.20.0-nullsafety.3
+  cached_network_image: ^3.1.0
+  badges: ^2.0.2
+  carousel_slider: ^4.0.0
+  image_stack: ^2.1.1
+  line_icons:
+  flutter_icons:
+  fl_chart: ^0.40.2
+  fluttertoast: ^8.0.9
+  flutter_localizations: 
+    sdk: flutter
+    version: ^0.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
